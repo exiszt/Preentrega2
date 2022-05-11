@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+
+.contenedor-general{
+    margin-top: 80px;
+}
+
+.navegador{
+    background-color: #0E0D16;
+}
+
+.navegador-logo{
+    font-weight: 900;
+    transition: all 0.3s linear;
+}
+
+.navegador-logo:hover{
+    color: #23A9E0 !important;
+}
+
+.enlace-nav{
+    color: #8E8E8E !important;
+    transition: all 0.3s linear;
+}
+
+.enlace-nav:hover{
+    color: #23A9E0 !important;
+}
+
+.pie {
+    background-color: #0E0D16;
+    position: absolute;
+    padding: 70px 0;
+}
+
+.icono{
+    background-color: #8E8E8E;
+    transition: all 0.3s linear;
+    margin: 5px 5px 20px 5px;
+}
+
+.icono:hover{
+    background-color: #23A9E0;
+}
+
+.estilo-ul{
+    list-style: none;
+    padding: 0;
+}
+
+.enlace{
+    text-decoration: none;
+    color: #8E8E8E;
+    transition: all 0.3s linear;
+    font-weight: 600;
+}
+
+.enlace:hover{
+    color: #23A9E0;
+}
+
+.titulo-pie{
+    font-weight: 600;
+    color: #23A9E0;
+}
+
+.titulo-pie-alt{
+    font-weight: 900;
+    color: #23A9E0;
+}
+
+.seccion{
+    margin: 50px 0;
+}
+
+.titulo{
+    font-weight: 600;
+    font-size: 30px;
+    color: #23A9E0;
+}
+
+.subtitulo{
+    font-weight: 600;
+    font-size: 20px;
+    color: #23A9E0;
+}
+
+.caja-carta{
+    background-color: #0E0D16;
+}
+
+.titulo-carta{
+    font-weight: 600;
+}
+
+.boton-carta{
+    background-color: white;
+    transition: all 0.3s linear;
+}
+
+.boton-carta:hover{
+    background-color: #23A9E0;
+    color: white;
+}
+
+.keyword{
+    background-color: #23A9E0;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 10px;
+}
+
+.espacio{
+    margin-bottom: 10px;
+}
+
+.contenedor-doctrina{
+    margin: 10px 0;
+}
+
+.texto-formulario{
+    color: #8E8E8E;
+}
+
+
+/** MOBILE **/
+@media (max-width: 576px){
+    .navegador-logo{
+        margin-left: 3%;
+    }
+
+    .titulo{
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    .parrafo{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .enlace{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-carta{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-doctrina{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/** TABLET **/
+@media (min-width: 576px) and (max-width: 992px){
+
+    .navegador-logo{
+        margin-left: 3%;
+    }
+
+    .titulo{
+        text-align: center;
+        margin: 10px 0;
+        font-size: 25px;
+    }
+
+    .parrafo{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .enlace{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-carta{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-imagen{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-doctrina{
+        display: flex;
+        justify-content: center;
+    }
+}
